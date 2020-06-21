@@ -12,23 +12,36 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             Image("background")
+                .resizable().edgesIgnoringSafeArea(.all)
             
             
-            HStack {
-                Text("GET STARTED!")
-                    .fontWeight(.heavy)
-                    .foregroundColor(.red)
-            }
+            VStack {
+                
+                HStack {
+                    Spacer()
+                    Text("Profile")
+                        .fontWeight(.heavy)
+                        .foregroundColor(.red)
+                        .padding(.leading, 10)
+                    Spacer()
+                    Text("HOME")
+                        .fontWeight(.heavy)
+                        .foregroundColor(.red)
+                    Spacer()
+                    
+                }
+                .scaleEffect(2.0)
+                .padding(.all, 30)
             
     
-            HStack {
+                Spacer()
                 Text("Welcome to Swift UI Design by Shobhakar")
                     .fontWeight(.heavy)
                     .foregroundColor(.red)
-                    .padding(20)
-                    .offset(x: 0, y: 400)
-            }
+                    
+                
             
+            }.padding(.all, 10)
         }
         
     }
