@@ -6,4 +6,4 @@ It includes how to add image using SWIFT UI and text overlay on this along with 
 
 Screenshot added :
 
-[![Screenshot-2020-06-21-at-10-43-37-AM.png](https://i.postimg.cc/7622WRxZ/Screenshot-2020-06-21-at-10-43-37-AM.png)](https://postimg.cc/zbqvL0bs)
+[![Screenshot-2020-06-21-at-2-09-28-PM.png](https://i.postimg.cc/J7QGGD5p/Screenshot-2020-06-21-at-2-09-28-PM.png)](https://postimg.cc/4nmJ03Mc)
